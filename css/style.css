@@ -34,3 +34,24 @@ body {
 .image-copyright a, .image-copyright a:hover, .image-copyright a:focus {
 	color: #fff;
 }
+
+.linkedin, .twitter, .github {
+	text-indent: -9999px;
+	min-height:60px;
+	min-width:60px;
+	max-height: 60px;
+	max-width: 60px;
+
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 60px 60px;
+}
+.linkedin {
+	background-image: url('../img/linkedin.png');
+}
+.twitter {
+	background-image: url('../img/twitter.png');
+}
+.github {
+	background-image: url('../img/github.png');
+}

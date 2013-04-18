@@ -29,7 +29,11 @@ $title = "git log";
 		?>
 			</div>
 			<div class="span2">
-				<p>linkedin</p>
+				<ul>
+					<li class="linkedin"><a href="<?php echo LINKED_IN_URI; ?>">LinkedIn</a></li>
+					<li class="twitter"><a href="<?php echo TWITTER_URI; ?>">Twitter</a></li>
+					<li class="github"><a href="<?php echo GITHUB_URI; ?>">Github</a></li>
+				</ul>
 			</div>
 		</div>
 		</div>
