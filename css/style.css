@@ -1,0 +1,36 @@
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.content {
+	margin: -30px;
+	padding: 30px;
+
+	background-color: rgba( 255,255,255, 0.4 );
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px #717171;
+}
+
+body {
+	background-image: url('../img/beach.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.image-copyright {
+	position: absolute;
+
+	left:20px;
+	bottom:20px;
+
+	background-color: rgba( 0,0,0,0.4 );
+
+	margin: -6px -9px;
+	padding: 6px 9px;
+	
+	border-radius:4px;
+}
+.image-copyright a, .image-copyright a:hover, .image-copyright a:focus {
+	color: #fff;
+}
