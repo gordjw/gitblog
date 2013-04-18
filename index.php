@@ -1,11 +1,8 @@
 <?php
-if( isset( $_GET['s'] ) ) {
-	exec( 'cd /data/git && git log --grep=' . $_GET['s'], $output) ;
-	$title = "git log --grep=" . $_GET['s'];
-} else {
-	exec( 'cd /data/git && git log', $output);
-	$title = "git log";
-}
+require_once( 'config.php' );
+
+exec( 'cd ' . GIT_DIR . ' && git log', $output);
+$title = "git log";
 ?>
 <html>
 	<head>
